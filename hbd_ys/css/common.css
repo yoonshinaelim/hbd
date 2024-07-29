@@ -1,12 +1,19 @@
+@font-face {
+    font-family: 'NanumMyeongjo';
+    src: url('font/NanumMyeongjo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{margin:0;padding:0;}
 html, body{margin:0;padding:0;width:100%;height:100%;}
-body{font-family:"ssangmundong", storm;color:#011627;}
+body{font-family:"NanumMyeongjo";color:#011627;}
 ul,li{list-style:none;}
 a, a:hover{text-decoration:none;color:#fff;}
 
-#wrap{width:100%;padding-bottom:150px;overflow:hidden;}
+#wrap{width:100%;padding-bottom:100px;overflow:hidden;}
 .main {width:100%;}
 .main img{width:100%;}
 .map{margin:0 20px;height:250px;}
 .btn_cont{margin-top:20px;}
-.btn{display:block;margin:0 20px 10px;background:#A593E0;text-align:center;color:#FFFFF3;padding:10px 0; font-size:18px;}
+.btn{display:block;margin:0 20px 10px;background:#A593E0;text-align:center;color:#FFFFF3;padding:10px 0; font-size:16px;}
